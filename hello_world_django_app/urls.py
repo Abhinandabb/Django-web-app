@@ -18,7 +18,7 @@ from django.urls import path
 from hello_world_django_app.views import hello_world
 
 urlpatterns = [
+    path('', hello_world),
     path('admin/', admin.site.urls),
     path('hello/', hello_world),
-
 ]
